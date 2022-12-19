@@ -287,5 +287,6 @@ video::-webkit-media-controls-overlay-play-button {
 	}
 	.wrapper-button-click{
 		bottom: 2%;
+		left: 30%;
 	}
 }

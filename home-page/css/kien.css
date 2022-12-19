@@ -318,4 +318,8 @@ video::-webkit-media-controls-overlay-play-button {
 	.blk-kham-pha .blk-right .img-cube{
 		display: block;
 	}
+	.wrapper-button-click{
+		
+		left: 30%;
+	}
 }
