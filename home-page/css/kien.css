@@ -165,8 +165,23 @@
 	height: 100%;
 }
 .blk-kham-pha .blk-right .img-cube{
-	display: none;
+	opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.blk-kham-pha .blk-right .bg-cube{
 	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	
+}
+.active-cube{
+	z-index: 99999;
 }
 .wrapper-rotate{
 	width: 100%;
