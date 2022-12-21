@@ -258,16 +258,12 @@ $(document).ready(function(){
 
 function playVideo() {
         $('.video-blk-dt').get(0).play();
-        setTimeout( function(){
-          $('.video-blk-dt').get(0).load();
-       },21000);
+        
     }
 
 function playVideomb() {
         $('.video-blk-mb').get(0).play();
-        setTimeout( function(){
-          $('.video-blk-mb').get(0).load();
-       },21000);
+        
     }
 $('.img-cube').click(function(){
   $('.video-blk-right').css('z-index',999);

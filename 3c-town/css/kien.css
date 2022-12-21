@@ -27,7 +27,13 @@
 .slider-url-1{
 	width: 88%;
 }
-
+.height-100{
+	height: 100vh;
+	display: none;
+}
+.page-main{
+	padding-bottom: 0px;
+}
 .md-desktop{
 	display: block !important;
 }
@@ -61,6 +67,7 @@
         padding: 0px;
         margin-bottom: 0%;
         margin-left: 0px;
+        height: auto !important;
 	}
 	.blk-kham-pha .blk-right .share-khoanh-khac{
 		opacity: 1;
@@ -150,16 +157,18 @@
 
 .blk-kham-pha .blk-right{
 	position: absolute;
-	width: 65%;
-	right: 0%;
+	width: 50%;
+	left: 35%;
 	top: 0%;
 	height: 100%;
+	padding: 0px;
 }
 .blk-kham-pha .blk-right .img-cube{
-	opacity: 0;
-    width: 100%;
+	left: 0%;
+	top: 0%;
+    width: auto;
     height: 100%;
-    position: relative;
+    position: absolute;
     z-index: 2;
 }
 
@@ -184,8 +193,8 @@
 }
 .wrapper-button-click{
 	position: absolute;
-	left: 38%;
-	bottom: 12%;
+	left: 30%;
+	bottom: 2%;
 }
 .slider-url .inner-slider-url .data-hash-chuan3c{
 	top: -50%;
@@ -227,6 +236,7 @@
 	.blk-kham-pha .blk-right{
 		position: relative;
 		width: 100%;
+		left: 0%;
 	}
 }
 
@@ -243,15 +253,7 @@
 	z-index: 99999;
 	pointer-events: none;
 }
-@media screen and (min-width: 768px){
-	
-	.page-3c-animation{
-		overflow: hidden;
-	}
-	.blk-kham-pha .blk-left{
-		height: 100vh;
-	}
-}
+
 @media screen and (min-width: 768px) and (max-width: 991px){
 	.wrapper-rotate{
 		width: 90%;
@@ -263,14 +265,12 @@
 
 .video-blk-right{
 	position: absolute;
-	right: 0%;
+	right: 8.6%;
 	top: 0%;
 	width: 65%;
 	height: 100%;
-	opacity: 1;
+	opacity: 0;
 	pointer-events: none;
-	background: #b6b6b5;
-	border: 1px solid #000;
 }
 
 video::-webkit-media-controls-panel
@@ -299,9 +299,8 @@ video::-webkit-media-controls-overlay-play-button {
 	}
 	.blk-kham-pha .blk-right .img-cube{
 		display: block;
-	}
-	.wrapper-button-click{
-		bottom: 2%;
-		left: 30%;
+		width: 100%;
+		height: auto;
+		position: relative;
 	}
 }

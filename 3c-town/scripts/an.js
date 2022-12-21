@@ -258,21 +258,31 @@ $(document).ready(function(){
 
 function playVideo() {
         $('.video-blk-dt').get(0).play();
-        setTimeout( function(){
-          $('.video-blk-dt').get(0).load();
-       },21000);
+        
     }
 
 function playVideomb() {
         $('.video-blk-mb').get(0).play();
-        setTimeout( function(){
-          $('.video-blk-mb').get(0).load();
-       },21000);
+        
     }
 $('.blk-right').click(function(){
   $('.video-blk-right').css('z-index',999);
+  $('.video-blk-right').css('opacity',1);
   setTimeout( function(){
     $('.video-blk-right').css('z-index',0);
+    $('.video-blk-right').css('opacity',0);
        },21000);
     
+});
+
+
+$(document).ready(function() {
+  var height_left = $('.height-100').outerHeight() - $('.page-3c-animation .navbar').outerHeight();
+$('.blk-kham-pha .blk-left').css('height', height_left );
+});
+
+
+jQuery(window).on('resize', function() {
+   var height_left = $('.height-100').outerHeight() - $('.page-3c-animation .navbar').outerHeight();
+$('.blk-kham-pha .blk-left').css('height', height_left ); 
 });
