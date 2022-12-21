@@ -157,11 +157,11 @@
 
 .blk-kham-pha .blk-right{
 	position: absolute;
-	width: 50%;
-	left: 35%;
-	top: 0%;
-	height: 100%;
-	padding: 0px;
+    width: 65%;
+    left: 35%;
+    top: 0%;
+    height: 100%;
+    padding: 0px;
 }
 .blk-kham-pha .blk-right .img-cube{
 	left: 0%;
@@ -265,12 +265,12 @@
 
 .video-blk-right{
 	position: absolute;
-	right: 8.6%;
-	top: 0%;
-	width: 65%;
-	height: 100%;
-	opacity: 0;
-	pointer-events: none;
+    right: 8.6%;
+    top: 0%;
+    width: 65%;
+    height: 100%;
+    opacity: 0;
+    pointer-events: none;
 }
 
 video::-webkit-media-controls-panel
