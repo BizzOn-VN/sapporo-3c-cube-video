@@ -180,7 +180,7 @@
 	position: absolute;
 	left: 0%;
 	top: 0%;
-	background: #bbbbba;
+	background: #bebebe;
 }
 .active-cube{
 	z-index: 99;
@@ -300,7 +300,7 @@
 
 .video-blk-right{
 	position: absolute;
-	right: 1.6%;
+	right: 1.7%;
 	top: 0%;
 	width: 65%;
 	height: 100%;
@@ -308,10 +308,10 @@
 	pointer-events: none;
 }
 .wrapper-kham-pha{
-	background: #bbbbba;
+	background: #bebebe;
 }
 .blk-kham-pha .ctn-inner{
-	background: #bbbbba;
+	background: #bebebe;
 }
 
 video::-webkit-media-controls-panel

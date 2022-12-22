@@ -180,7 +180,7 @@
 	position: absolute;
 	left: 0%;
 	top: 0%;
-	background: #bbbbba;
+	background: #bebebe;
 }
 .active-cube{
 	z-index: 99;
@@ -309,10 +309,10 @@
 }
 
 .wrapper-kham-pha{
-	background: #bbbbba;
+	background: #bebebe;
 }
 .blk-kham-pha .ctn-inner{
-	background: #bbbbba;
+	background: #bebebe;
 }
 
 
