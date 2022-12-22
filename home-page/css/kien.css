@@ -1,6 +1,6 @@
 .blk-kham-pha .ctn-inner .bg-blk-3c {
     position: absolute;
-    left: 2%;
+    left: 9%;
     top: 0%;
     width: 33%;
     height: 100%;
@@ -22,7 +22,7 @@
 .blk-kham-pha .blk-left{
 	padding: 2vw 0px 0px 0px;
 	width: 35%;
-	margin-left: 1%;
+	margin-left: 8.5%;
 }
 .slider-url-1{
 	width: 88%;
@@ -160,7 +160,7 @@
 .blk-kham-pha .blk-right{
 	position: absolute;
 	width: 65%;
-	right: 0%;
+	right: -7%;
 	top: 0%;
 	height: 100%;
 }
@@ -231,6 +231,7 @@
 	.blk-kham-pha .blk-right{
 		padding: 0% 0px 0% 0%;
 		margin-left: 0%;
+		right: 0;
 	}
 	.content-hhc{
 		position: static;
@@ -297,7 +298,7 @@
 
 .video-blk-right{
 	position: absolute;
-	right: 8.6%;
+	right: 1.6%;
 	top: 0%;
 	width: 65%;
 	height: 100%;
