@@ -344,5 +344,7 @@ video::-webkit-media-controls-overlay-play-button {
 		height: auto;
 		position: relative;
 	}
-
+	.wrapper-button-click{
+		left: 30%;
+	}
 }
