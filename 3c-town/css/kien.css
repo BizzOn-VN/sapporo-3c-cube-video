@@ -197,6 +197,7 @@
 	position: absolute;
 	left: 24%;
 	bottom: 2%;
+	pointer-events: none;
 }
 .content-hhc{
 	min-width: auto;
