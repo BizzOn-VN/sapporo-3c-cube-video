@@ -294,6 +294,7 @@
 		position: relative;
 		width: 100%;
 		right: 0%;
+		z-index: 10;
 	}
 }
 #ani-snow{
